@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Project Pride</title>
 
+  <link rel="shortcut icon" href="https://www.incisivemedia.com/wp-content/uploads/2016/05/PP-favicon.jpg"/>
+    
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,7 +14,7 @@
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Project Pride</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
@@ -28,11 +30,35 @@
       <br><br>
       <h1 class="header center orange-text">Project Pride</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Club Description</h5>
+        <h5 class="header col s12 light">Fill out this form to join!</h5>
       </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="First Name" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
       </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+              <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="text">
+          <label for="password">Message</label>
+        </div>
+      </div>
+    </form>
+  </div>
+        
       <br><br>
 
     </div>

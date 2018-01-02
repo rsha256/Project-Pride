@@ -12,3 +12,15 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.inforow
+{
+  border:5px solid #42a5f5;  
+   margin-top:10px; 
+}
+
+#index-banner {
+    background-color: #1de9c3;
+}
+#index-banner2 {
+    background-color: #84fd84;
+}

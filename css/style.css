@@ -14,8 +14,12 @@
 }
 .inforow
 {
-  border:5px solid #42a5f5;  
-   margin-top:10px; 
+  border:5px solid #42a5f5;
+   margin-top:10px;
+}
+.inforow2 {
+  border:2.5px solid #000000;
+   margin-bottom:1px;
 }
 
 #index-banner {

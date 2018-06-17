@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.m4v filter=lfs diff=lfs merge=lfs -text
+videos/Project-Pride-2018.m4v filter=lfs diff=lfs merge=lfs -text

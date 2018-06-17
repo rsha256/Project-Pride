@@ -2,29 +2,84 @@
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
  */
 
+html {
+    overflow-x: hidden;
+}
+
+img.responsive-img {
+    max-width: 20%;
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.spacer {
+    margin: 5vh;
+}
+
+.on-top {
+    position: fixed;
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .img-responsive {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+}
+
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
 .inforow
 {
-  border:5px solid #42a5f5;
-   margin-top:10px;
+    margin-top:10px;
 }
 .inforow2 {
-  border:2.5px solid #000000;
-   margin-bottom:1px;
+    border:2.5px solid #000000;
+    margin-bottom:1px;
+}
+
+/* Hide on Mobile*/
+.mobileHide { display: inline; }
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+    .mobileHide { display: none;}
+}
+
+/* Hide on Desktop */
+.mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+    .mobileShow {display: inline;}
+}
+
+.custom-navbar {
+    color: #FFDF00;
 }
 
 #index-banner {
-    background-color: #1de9c3;
+    background: green fixed;
 }
 #index-banner2 {
     background-color: #84fd84;
 }
+

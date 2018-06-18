@@ -66,13 +66,12 @@ if(isset($_POST['submit'])){
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Project Pride</title>
+  <title>Project&nbsp;Pride</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -83,24 +82,23 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 <nav class="yellow darken-2">
-  <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="animated brand-logo pulse">Project
-    Pride</a>
+  <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="animated brand-logo pulse">Project&nbsp;Pride</a>
     <ul class="right hide-on-med-and-down bounce animated">
       <li><a href="members.html">Members</a></li>
-      <li><a href="2015.html">2015</a></li>
-      <li><a href="2016.html">2016</a></li>
-      <li><a href="2017.html">2017</a></li>
-      <li><a href="2018.html">2018</a></li>
-      <li><a class="z-depth-1-half green" href="contact.html">Contact</a></li>
+      <li><a href="years.html#2015">2015</a></li>
+      <li><a href="years.html#2016">2016</a></li>
+      <li><a href="years.html#2017">2017</a></li>
+      <li><a href="years.html#2018">2018</a></li>
+      <li><a class="z-depth-1-half green" href="contact.php">Contact</a></li>
     </ul>
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a class="white-text" href="members.html">Members</a></li>
-      <li><a href="2015.html">2015</a></li>
-      <li><a href="2016.html">2016</a></li>
-      <li><a href="2017.html">2017</a></li>
-      <li><a href="2018.html">2018</a></li>
-      <li><a class="z-depth-1-half green" href="contact.html">Contact</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="years.html#2015">2015</a></li>
+      <li><a href="years.html#2016">2016</a></li>
+      <li><a href="years.html#2017">2017</a></li>
+      <li><a href="years.html#2018">2018</a></li>
+      <li><a class="z-depth-1-half green" href="contact.php">Contact</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
@@ -155,26 +153,26 @@ if(isset($_POST['submit'])){
   <h3 class="center black-text">Our locations:</h3>
   <br>
   <br>
-  <div class="center hide-on-small-only row">
+  <div class="center row">
     <div class="left">
-      <iframe width="650" height="550" style="border:0"
+      <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
     </div>
     <div class="right">
-      <iframe width="650" height="550" style="border:0"
+      <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>
     </div>
   </div>
-  <div class="center hide-on-large-only row">
-    <div class="left">
-      <iframe width="175" height="175" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
-    </div>
-    <div class="right">
-      <iframe width="175" height="175" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>
-    </div>
-  </div>
+  <!--<div class="center hide-on-large-only row">-->
+  <!--  <div class="left">-->
+  <!--    <iframe width="175" height="175" style="border:0"-->
+  <!--            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>-->
+  <!--  </div>-->
+  <!--  <div class="right">-->
+  <!--    <iframe width="175" height="175" style="border:0"-->
+  <!--            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>-->
+  <!--  </div>-->
+  <!--</div>-->
   <div class="footer-copyright">
     <div class="container">
       <span class="black-text">Made by <a class="" href="https://github.com/coder3462">Rahul Shah</a></span>

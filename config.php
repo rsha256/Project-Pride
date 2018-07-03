@@ -20,7 +20,6 @@ $homeBtn = <<<"END"
 END;
 
 
-
 $copyright = <<<"END"
 <footer class="page-footer yellow">
   <div class="footer-copyright">
@@ -34,8 +33,6 @@ $copyright = <<<"END"
 </footer>
 
 END;
-
-
 
 
 $imports = <<<"END"

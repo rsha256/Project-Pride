@@ -12,6 +12,30 @@ img.responsive-img {
     max-width: 20%;
 }
 
+.amaranth {
+    font-family: 'Amaranth';
+}
+
+.genphoto {
+    margin-top: 15vh;
+    margin-right: 5vw;
+    width: 300px;
+    height:400px;
+}
+
+.genimg {
+    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 300px;
+    height:400px;
+}
+
+.samesize {
+    width: 300px;
+    height:400px;
+}
+
 .left {
     margin-left: 30px;
 }
@@ -82,4 +106,3 @@ and (max-device-width : 480px){
 #index-banner2 {
     background-color: #84fd84;
 }
-

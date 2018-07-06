@@ -1,8 +1,8 @@
 #
 # @author Rahul Shah
 #
-# to convert images to png
-s# 
+# to convert images to pngs
+# 
 
 $filename = Read-Host 'What is the filename?'
 $extension = Read-Host 'What is the extension?'

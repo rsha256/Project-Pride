@@ -127,7 +127,7 @@
   <!--</div>-->
   <div class="footer-copyright">
     <div class="container">
-      <span class="black-text">Made by <a class="" href="https://github.com/coder3462">Rahul Shah</a></span>
+      <span class="black-text">Made by <a class="" href="https://github.com/rshah2020">Rahul Shah</a></span>
     </div>
   </div>
 </footer>

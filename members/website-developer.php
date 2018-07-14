@@ -57,12 +57,12 @@
 </nav>
 <div class="container">
   <div class="valign-wrapper">
-    <div class="mobileHide left"><img class="genphoto" src="../images/Rahul.png"></div>&nbsp;
+    <div class="mobileHide left"><img class="genphoto" src="../images/Rahul_Shah.png"></div>&nbsp;
     <div class="mobileHide animated fadeInUp right"><span class="animated pulse"><strong><?php echo $me; ?> – <?php echo $position; ?></strong> is currently a <?php echo $grade; ?> at High School South. <?php echo $gender; ?> enjoys volunteering with various organizations such as <?php echo $vorg1; ?>, <?php echo $vorg2; ?>, Project Pride etc. <?php echo $gender; ?> is a <?php echo $positioninclub; ?> for <?php echo $club; ?> and a <?php echo $positioninclub2; ?> for <?php echo $club2; ?>. <?php echo $gender; ?> loves programming and messing with technology. <?php echo $gender; ?> loves volunteering with <?php echo $vorg1; ?> because you physically see the direct impact that one person has (yourself) and how much a difference you can make in a persons life.</span>
     </div>
   </div>
   <div class="center container valign-wrapper">
-    <div class="mobileShow center"><img class="center genimg" src="../images/Rahul.png"></div>&nbsp;
+    <div class="mobileShow center"><img class="center genimg" src="../images/Rahul_Shah.png"></div>&nbsp;
   </div>
   <div class="valign-wrapper">
     <div class="mobileShow animated fadeInUp container"><h1><strong><?php echo $me; ?> – <?php echo $position; ?>: </strong></h1>

@@ -82,7 +82,7 @@
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix">mode_edit</i>
-            <input placeholder=" I would like to join Project Pride!" id="subject" name="message" type="text">
+            <input placeholder=" For Example: I would like to join Project Pride!" id="subject" name="message" type="text">
             <label for="subject">Message</label>
           </div>
         </div>

@@ -1,4 +1,5 @@
 <?php
+  
   if (isset($_POST['submit'])) {
     $to = "rahuldshah3@gmail.com";
     $from = $_POST['email'];
@@ -15,8 +16,8 @@
     mail($from, $subject2, $message2, $headers2);
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
   }
-?>
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -115,16 +116,6 @@
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>
     </div>
   </div>
-  <!--<div class="center hide-on-large-only row">-->
-  <!--  <div class="left">-->
-  <!--    <iframe width="175" height="175" style="border:0"-->
-  <!--            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>-->
-  <!--  </div>-->
-  <!--  <div class="right">-->
-  <!--    <iframe width="175" height="175" style="border:0"-->
-  <!--            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>-->
-  <!--  </div>-->
-  <!--</div>-->
   <div class="footer-copyright">
     <div class="container">
       <span class="black-text">Made by <a class="" href="https://github.com/rshah2020">Rahul Shah</a></span>

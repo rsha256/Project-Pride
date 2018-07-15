@@ -45,6 +45,8 @@
 
 <div class="container">
   <!-- put code here -->
+  Hello!  The time is now <%= new java.util.Date() %>
+
 </div>
 
 <div class="footer-copyright yellow darken-1">

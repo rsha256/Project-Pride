@@ -1,5 +1,5 @@
 ErrorDocument 400 http://hssprojectpride.org/errors/400.php
 ErrorDocument 401 http://hssprojectpride.org/errors/error.php
 ErrorDocument 403 http://hssprojectpride.org/errors/errors.php
-ErrorDocument 404 http://hssprojectpride.org/errors/400.php
+ErrorDocument 404 http://hssprojectpride.org/errors/404.php
 ErrorDocument 500 errors/500.php

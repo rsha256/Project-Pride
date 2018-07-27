@@ -12,13 +12,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-        content="SouthHacks is the official 24 hour high school hackathon hosted by the Union County Vocational-Technical Schools, a district composed of five schools spanning a variety of subjects from engineering and computer science to health and performing arts. Located in Scotch Plains, New Jersey, we welcome all high schoolers!">
+        content="SouthHacks is the official 24 hour high school hackathon hosted by the West Windsor-Plainsboro Regional School District, a district composed of two schools spanning a variety of subjects from engineering and computer science to health and performing arts. Located in West Windsor, New Jersey, we welcome all high schoolers!">
   <meta name="author" content="southhacks">
   <meta property="og:url" content="http://southhacks.com"/>
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="SouthHacks - WW-P HSS 24 Hour Hackathon for High School Students"/>
   <meta property="og:description"
-        content="SouthHacks is the official 24 hour high school hackathon hosted by the Union County Vocational-Technical Schools, a district composed of five schools spanning a variety of subjects from engineering and computer science to health and performing arts. Located in Scotch Plains, New Jersey, we welcome all high schoolers!"
+        content="SouthHacks is the official 24 hour high school hackathon hosted by the West Windsor-Plainsboro Regional School District, a district composed of two schools spanning a variety of subjects from engineering and computer science to health and performing arts. Located in West Windsor, New Jersey, we welcome all high schoolers!"
   />
   <meta property="og:image" content="logo.png"/>
   <title>SouthHacks - Hackathon @ WW-P High School South</title>

@@ -20,7 +20,7 @@
   <meta property="og:description"
         content="SouthHacks is the official 24 hour high school hackathon hosted by the West Windsor-Plainsboro Regional School District, a district composed of two schools spanning a variety of subjects from engineering and computer science to health and performing arts. Located in West Windsor, New Jersey, we welcome all high schoolers!"
   />
-  <meta property="og:image" content="logo.png"/>
+  <meta property="og:image" content="img/logo.png"/>
   <title><?php echo $name; ?> - Hackathon @ WW-P High School South</title>
 
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">

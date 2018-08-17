@@ -156,7 +156,7 @@ a.navbar-brand:after {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white !important;
+  /*color: white !important;*/
 }
 
 /* ============
@@ -710,7 +710,7 @@ body {
   margin: 25% 30px 7%;
 }
 
-.sponsorimg {
+.sponsor-img {
   max-width: 300px;
   height: auto;
   display: inline-block;
@@ -721,21 +721,21 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.sponsorimg.gold {
+.sponsor-img.gold {
   width: 33%;
   max-width: none;
 }
 
-.sponsorimg.arkio {
+.sponsor-img.arkio {
   max-width: 600px;
   padding-top: 0;
 }
 
-.sponsorimg.ucvts {
+.sponsor-img.ucvts {
   max-width: 250px;
 }
 
-#gep.sponsorimg {
+#gep.sponsor-img {
   max-width: 400px;
 }
 
@@ -763,7 +763,7 @@ body {
   margin-top: 1em;
 }
 
-.sponsorimg.squareImg {
+.sponsor-img.squareImg {
   max-width: 250px !important;
 }
 
@@ -788,19 +788,19 @@ body {
     width: 50%;
   }
 
-  .sponsorimg,
-  .sponsorimg.gold {
+  .sponsor-img,
+  .sponsor-img.gold {
     display: block;
     max-width: 300px;
     width: 90%;
     margin: 0 auto 1em;
   }
 
-  #gep.sponsorimg {
+  #gep.sponsor-img {
     max-width: 375px;
   }
 
-  .sponsorimg.arkio {
+  .sponsor-img.arkio {
     max-width: 400px;
     width: 90%;
     margin: 0 auto 1em;
@@ -808,7 +808,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  .sponsorimg {
+  .sponsor-img {
     width: 75%;
     margin: 0 auto 1em;
   }

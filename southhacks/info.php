@@ -219,7 +219,7 @@
   <div class="footer-copyright">
     <div class="container">
       <details>
-        <summary class="green-text text-darken-4"><?php echo $name; ?> &copy; 2017-2018</summary>
+        <summary class="green-text text-darken-4"><?php echo $name; ?> &copy; 2017-2018</summary><br>
         <p class="grey-text"> - by
           <a class="link" href="https://github.com/IshaanIvaturi"><?php echo $webDesigner; ?></a>. All Rights Reserved.</p>
       </details>

@@ -79,28 +79,6 @@
 
 
 <div class="cardsContainer">
-  <div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
-    <div class="flipper">
-      <div class="front">
-        <img class="profilePic" src="img/teamPics/aditya.png" alt="Profile Picture">
-        <span class="name">Aditya Patil</span>
-        <span class="title">Executive Director</span>
-
-      </div>
-      <div class="back">
-                    <span class="biography">
-                        <p class="answer">I am a rising high school junior at WW-P HSS. I have programmed and pitched the main applications of 3 award winning hacks in MLH organized hackathons. I am currently interested in Computer Vision, Natural Language Processing, Robotics, Blockchain and the idea of Quantum Cryptography.</p>
-                </span>
-        <div class="icons">
-          <a href="https://www.linkedin.com/in/aditya-patil1/"><img class="icon" src="img/icons/linkedin.png"
-                                                                    alt="icon"></a>
-          <a href="https://github.com/AdityaFRC"><img class="icon" src="img/icons/github.png" alt="icon"></a>
-          <a href="mailto:aditya@southhacks.com"><img class="icon" src="img/icons/mail.png" alt="icon"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="card flip-container top" ontouchstart="this.classList.toggle('hover');">
     <div class="flipper">
       <div class="front">
@@ -111,7 +89,7 @@
       </div>
       <div class="back">
              <span class="biography">
-               <p class="answer">Rahul is currently a Junior at WW-P High School South. He lives in West Windsor, New Jersey. He is on the FRC robotics team 1923 and is involved with many clubs such as STEP FOr a Better World, Project Pride and Relay for Life. He loves volunteering and sharpening his web development skills during his free time.</p>
+               <p class="answer">I am currently a Junior at WW-P High School South. I am on the FRC robotics team 1923 and am involved with many clubs and organizations such as STEP For a Better World, Project Pride and Relay for Life; even founding a non-profit, Genesis Code, to help kids learn to code.</p>
              </span>
         <div class="icons">
           <a href="https://www.linkedin.com/in/rshah2020"><img class="icon" src="img/icons/linkedin.png" alt="icon"></a>
@@ -124,6 +102,27 @@
   </div>
 </div>
 
+  <div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+      <div class="front">
+        <img class="profilePic" src="img/teamPics/aditya.png" alt="Profile Picture">
+        <span class="name">Aditya Patil</span>
+        <span class="title">Executive Director</span>
+
+      </div>
+      <div class="back">
+                    <span class="biography">
+                        <p class="answer">I am a high school junior at WW-P HSS. I have programmed and pitched the main applications of 3 award winning hacks in MLH organized hackathons. I am currently interested in Computer Vision, Natural Language Processing, Robotics, Blockchain and the idea of Quantum Cryptography.</p>
+                </span>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/aditya-patil1/"><img class="icon" src="img/icons/linkedin.png"
+                                                                    alt="icon"></a>
+          <a href="https://github.com/AdityaFRC"><img class="icon" src="img/icons/github.png" alt="icon"></a>
+          <a href="mailto:aditya@southhacks.com"><img class="icon" src="img/icons/mail.png" alt="icon"></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <div class="cardsContainer">
   <div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -197,7 +196,7 @@
       <div class="front">
         <img class="profilePic" src="img/teamPics/temp.png" alt="Profile Picture">
         <span class="name">Ishaan Ivaturi</span>
-        <span class="title">Event Organizer and Website Developer</span>
+        <span class="title">Website Developer</span>
 
       </div>
       <div class="back">

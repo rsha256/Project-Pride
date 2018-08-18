@@ -121,3 +121,7 @@ and (max-device-width: 480px) {
 #index-banner2 {
   background-color: #84fd84;
 }
+
+#content {
+  z-index: 999;
+}

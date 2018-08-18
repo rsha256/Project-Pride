@@ -35,8 +35,8 @@
 </head>
 <body>
 <nav class="yellow darken-2">
-  <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="animated brand-logo pulse">Project&nbsp;Pride</a>
-    <ul class="right hide-on-med-and-down bounce animated">
+  <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Project&nbsp;Pride</a>
+    <ul class="right hide-on-med-and-down">
       <li><a href="members.html">Members</a></li>
       <li><a href="years.html#2015">2015</a></li>
       <li><a href="years.html#2016">2016</a></li>

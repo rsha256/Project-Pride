@@ -5,104 +5,119 @@
  */
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 img.responsive-img {
-    max-width: 20%;
+  max-width: 20%;
 }
 
 .amaranth {
-    font-family: 'Amaranth', cursive;
+  font-family: 'Amaranth', serif;
+}
+
+.c-amaranth {
+  font-family: 'Amaranth', cursive;
 }
 
 .genphoto {
-    margin-top: 15vh;
-    margin-right: 5vw;
-    width: 300px;
-    height:400px;
+  margin-top: 15vh;
+  margin-right: 5vw;
+  width: 300px;
+  height: 400px;
 }
 
 .genimg {
-    margin-left: 25vw;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    width: 300px;
-    height:400px;
+  margin-left: 25vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  width: 300px;
+  height: 400px;
 }
 
 .samesize {
-    width: 300px;
-    height:400px;
+  width: 300px;
+  height: 400px;
 }
 
 .left {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .right {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .spacer {
-    margin: 5vh;
+  margin: 5vh;
 }
 
 .on-top {
-    position: fixed;
-    z-index: 999;
+  position: fixed;
+  z-index: 999;
 }
 
 @media (max-width: 768px) {
-    .img-responsive {
-        transform: translateX(-50%);
-        left: 50%;
-        position: absolute;
-    }
+  .img-responsive {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
 }
 
 .icon-block {
-    padding: 0 15px;
+  padding: 0 15px;
 }
+
 .icon-block .material-icons {
-    font-size: inherit;
+  font-size: inherit;
 }
-.inforow
-{
-    margin-top:10px;
+
+.inforow {
+  margin-top: 10px;
 }
+
 .inforow2 {
-    border:2.5px solid #000000;
-    margin-bottom:1px;
+  border: 2.5px solid #000000;
+  margin-bottom: 1px;
 }
 
 /* Hide on Mobile*/
-.mobileHide { display: inline; }
+.mobile-hide {
+  display: inline;
+}
 
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-    .mobileHide { display: none;}
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .mobile-hide {
+    display: none;
+  }
 }
 
 /* Hide on Desktop */
-.mobileShow {display: none;}
+.mobile-show {
+  display: none;
+}
 
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-    .mobileShow {display: inline;}
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .mobile-show {
+    display: inline;
+  }
 }
 
 .custom-navbar {
-    color: #FFDF00;
+  color: #FFDF00;
 }
 
 #index-banner {
-    background: green fixed;
+  background: green fixed;
 }
+
 #index-banner2 {
-    background-color: #84fd84;
+  background-color: #84fd84;
 }

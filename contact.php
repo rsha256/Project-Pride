@@ -58,7 +58,7 @@
 </nav>
 <div class="darken-1 green section no-pad-bot">
   <div class="container">
-    <h1 class="header center yellow-text">Project Pride</h1>
+    <h2 class="header center yellow-text">Project&nbsp;Pride</h2>
     <div class="row center">
       <h5 class="header col s12 light">Fill out this form to join!</h5>
     </div>
@@ -108,10 +108,12 @@
   <br>
   <div class="center row">
     <div class="left">
+      <h4 class="black-text">High School South</h4>
       <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
     </div>
     <div class="right">
+      <h4 class="black-text">Grover Middle School</h4>
       <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>
     </div>

@@ -1,6 +1,6 @@
 function check()
 {
-  if(!document.getElementById("email").checkValidity() && isValidMsg(document.forms['frm'].message.value))
+  if(!document.getElementById("email").checkValidity() && isEmpty(document.forms['frm'].message.value))
   {
     alert("input not valid!");
   } 
@@ -15,8 +15,8 @@ function isValid()
     M.toast({html: 'Message Sent!', classes: 'rounded'});
 }
 
-function isValidMsg(str)
+function isEmpty(str)
 {
-    return str.replace(/^\s+/g, '').length;
+    return !str.replace(/^\s+/g, '').length;
 }
 

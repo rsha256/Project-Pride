@@ -31,7 +31,9 @@
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/emailcheck.js"></script>
 </head>
 <body>
 <nav class="yellow darken-2">
@@ -87,7 +89,7 @@
             <label for="subject">Message</label>
           </div>
         </div>
-        <button class="btn waves-effect waves-light" onclick="M.toast({html: 'Message Sent!', classes: 'rounded'})"
+        <button class="btn waves-effect waves-light" onclick="check()"
                 type="submit"
                 name="submit" value="Submit">Submit
           <i class="material-icons right">send</i>

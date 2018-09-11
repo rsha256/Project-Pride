@@ -65,7 +65,7 @@
       <h5 class="header col s12 light">Fill out this form to join!</h5>
     </div>
     <div class="row">
-      <form method="post" class="col s12" action="contact.php">
+      <form name="frm" method="post" class="col s12" action="contact.php">
         <div class="row">
           <div class="input-field col s6">
             <input name="first_name" id="first_name" type="text" class="validate">

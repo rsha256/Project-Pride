@@ -78,14 +78,14 @@
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="email" type="email" name="email" class="validate">
+            <input id="email" type="email" name="email" class="validate" required>
             <label for="email" data-error="wrong" data-success="right">Email</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix">mode_edit</i>
-            <input placeholder=" For Example: I would like to join Project Pride!" id="subject" name="message" type="text">
+            <input placeholder=" For Example: I would like to join Project Pride!" id="subject" name="message" type="text" required>
             <label for="subject">Message</label>
           </div>
         </div>

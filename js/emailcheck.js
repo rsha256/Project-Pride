@@ -1,6 +1,6 @@
 function check()
 {
-  if(!document.getElementById("email").checkValidity() && isEmpty(document.forms['frm'].message.value))
+  if(!document.getElementById("email").checkValidity() || isEmpty(document.forms['frm'].message.value))
   {
     alert("input not valid!");
   } 

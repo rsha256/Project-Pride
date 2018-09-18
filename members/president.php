@@ -53,8 +53,8 @@
 </nav>
 <div class="container">
   <div class="valign-wrapper">
-    <div class="mobileHide left"><img class="genphoto" src="../images/Jessica_Shah.png"></div>&nbsp;
-    <div class="mobileHide animated fadeInUp right"><span class="animated pulse"><strong><?php echo $prez; ?> – President</strong> is currently a <?php echo $grade; ?>
+    <div class="mobile-hide left"><img class="genphoto" src="../images/Jessica_Shah.png"></div>&nbsp;
+    <div class="mobile-hide animated fadeInUp right"><span class="animated pulse"><strong><?php echo $prez; ?> – President</strong> is currently a <?php echo $grade; ?>
         at High School South. <?php echo $gender; ?>
         enjoys volunteering with various organizations such as <?php echo $vorg1; ?>, <?php echo $vorg2; ?>, Project Pride etc. <?php echo $gender; ?>
         is a <?php echo $positioninclub; ?> for <?php echo $club; ?>. She loves shopping, concerts, meeting new people-socializing, traveling & being with her friends and family. She loves volunteering with <?php echo $vorg1; ?>
@@ -62,10 +62,10 @@
     </div>
   </div>
   <div class="center container valign-wrapper">
-    <div class="mobileShow center"><img class="center genimg" src="../images/Jessica_Shah.png"></div>&nbsp;
+    <div class="mobile-show center"><img class="center genimg" src="../images/Jessica_Shah.png"></div>&nbsp;
   </div>
   <div class="valign-wrapper">
-    <div class="mobileShow animated fadeInUp container"><h1><strong><?php echo $prez; ?> – President: </strong></h1>
+    <div class="mobile-show animated fadeInUp container"><h1><strong><?php echo $prez; ?> – President: </strong></h1>
       <h3>is currently a <?php echo $grade; ?> at High School South. <?php echo $gender; ?> enjoys volunteering with
         various organizations such as <?php echo $vorg1; ?>, <?php echo $vorg2; ?>, Project Pride
         etc. <?php echo $gender; ?> is a <?php echo $positioninclub; ?> for <?php echo $club; ?>. She loves shopping,

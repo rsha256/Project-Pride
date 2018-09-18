@@ -1,5 +1,5 @@
 <?php
-
+  $page = "404";
 ?>
 
 <!DOCTYPE html>

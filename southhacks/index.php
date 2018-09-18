@@ -201,7 +201,7 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/foodsplash.js"></script>
+<script src="js/southhacks.js"></script>
 
 </body>
 

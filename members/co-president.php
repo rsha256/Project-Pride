@@ -48,16 +48,16 @@
 </nav>
 <div class="container">
   <div class="valign-wrapper">
-    <div class="mobileHide left"><img class="genphoto" src="../images/Sadat_Butt.png"></div>&nbsp;
-    <div class="mobileHide animated fadeInUp right"><span><strong><?php echo $coprez; ?> – Co-President: </strong>is currently a <?php echo $grade; ?>
+    <div class="mobile-hide left"><img class="genphoto" src="../images/Sadat_Butt.png"></div>&nbsp;
+    <div class="mobile-hide animated fadeInUp right"><span><strong><?php echo $coprez; ?> – Co-President: </strong>is currently a <?php echo $grade; ?>
         at High School South. <?php echo $gender; ?> enjoys volunteering with various organizations such as Project Pride etc.</span>
     </div>
   </div>
   <div class="center container valign-wrapper">
-    <div class="mobileShow center"><img class="center genimg" src="../images/Sadat_Butt.png"></div>&nbsp;
+    <div class="mobile-show center"><img class="center genimg" src="../images/Sadat_Butt.png"></div>&nbsp;
   </div>
   <div class="valign-wrapper">
-    <div class="mobileShow animated fadeInUp container"><h1><strong><?php echo $coprez; ?> – Co-President</strong></h1>
+    <div class="mobile-show animated fadeInUp container"><h1><strong><?php echo $coprez; ?> – Co-President</strong></h1>
       <h3> is currently a <?php echo $grade; ?> at High School South. <?php echo $gender; ?> enjoys volunteering with
         various organizations such as Project Pride etc.</h3></div>
   </div>

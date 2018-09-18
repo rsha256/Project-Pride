@@ -31,7 +31,9 @@
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/emailcheck.js"></script>
 </head>
 <body>
 <nav class="yellow darken-2">
@@ -58,12 +60,12 @@
 </nav>
 <div class="darken-1 green section no-pad-bot">
   <div class="container">
-    <h1 class="header center yellow-text">Project Pride</h1>
+    <h2 class="header center yellow-text">Project&nbsp;Pride</h2>
     <div class="row center">
       <h5 class="header col s12 light">Fill out this form to join!</h5>
     </div>
     <div class="row">
-      <form method="post" class="col s12" action="contact.php">
+      <form name="frm" method="post" class="col s12" action="contact.php">
         <div class="row">
           <div class="input-field col s6">
             <input name="first_name" id="first_name" type="text" class="validate">
@@ -76,18 +78,18 @@
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="email" type="email" name="email" class="validate">
+            <input id="email" type="email" name="email" class="validate" required>
             <label for="email" data-error="wrong" data-success="right">Email</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix">mode_edit</i>
-            <input placeholder=" For Example: I would like to join Project Pride!" id="subject" name="message" type="text">
+            <input placeholder=" For Example: I would like to join Project Pride!" id="subject" name="message" type="text" required>
             <label for="subject">Message</label>
           </div>
         </div>
-        <button class="btn waves-effect waves-light" onclick="M.toast({html: 'Message Sent!', classes: 'rounded'})"
+        <button class="btn waves-effect waves-light" onclick="check()"
                 type="submit"
                 name="submit" value="Submit">Submit
           <i class="material-icons right">send</i>
@@ -108,10 +110,12 @@
   <br>
   <div class="center row">
     <div class="left">
+      <h4 class="black-text">High School South</h4>
       <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
     </div>
     <div class="right">
+      <h4 class="black-text">Grover Middle School</h4>
       <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=10+Southfield+road,West+Windsor+NJ"></iframe>
     </div>

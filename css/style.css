@@ -78,7 +78,7 @@ img.responsive-img {
 }
 
 .inforow2 {
-  border: 2.5px solid #000000;
+  border: 3px solid #000000;
   margin-bottom: 1px;
 }
 
@@ -132,12 +132,12 @@ and (max-device-width: 480px) {
 .transp-background {
   mix-blend-mode: multiply;
   width: 25vw;
-  height: 30vh;
+  height: 32.5vh;
 }
 
 .mobile-transp-background {
   mix-blend-mode: multiply;
-  width: 50vw;
+  width: 75vw;
   height: 30vh;
 }
 

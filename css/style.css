@@ -133,7 +133,6 @@ and (max-device-width: 480px) {
   mix-blend-mode: multiply;
   width: 25vw;
   height: 30vh;
-  float: left;
 }
 
 #index-banner {

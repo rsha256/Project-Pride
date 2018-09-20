@@ -118,9 +118,7 @@
       <iframe width="100%" height="150%" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXS5Mib6FZvLrvlkspkY69ro4ug6_tdyA&amp;q=346+Clarksville+road,West+Windsor+NJ"></iframe>
     </div>
-    <div class="center">
-        <img class="center transp-background" src="images/logo.png">
-    </div>
+    <img class="center transp-background" src="images/logo.png">
     <div class="right">
       <h4 class="black-text">Grover Middle School</h4>
       <iframe width="100%" height="150%" style="border:0"

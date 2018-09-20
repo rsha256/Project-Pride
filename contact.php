@@ -44,6 +44,7 @@
       <li><a href="years.html#2016">2016</a></li>
       <li><a href="years.html#2017">2017</a></li>
       <li><a href="years.html#2018">2018</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
       <li><a class="z-depth-1-half green" href="contact.php">Contact</a></li>
     </ul>
 
@@ -53,6 +54,9 @@
       <li><a href="years.html#2016">2016</a></li>
       <li><a href="years.html#2017">2017</a></li>
       <li><a href="years.html#2018">2018</a></li>
+      <li>
+        <a href="https://calendar.google.com/calendar/embed?src=fgu42cddsutnkvodadjmj94uik%40group.calendar.google.com&ctz=America%2FNew_York" target="_blank">Calendar</a>
+      </li>
       <li><a class="z-depth-1-half green" href="contact.php">Contact</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -135,4 +139,3 @@
 
 </body>
 </html>
-

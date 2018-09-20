@@ -38,3 +38,7 @@ a.active {
 #2018 {
   height: 600px;
 }
+
+.sidenav-overlay {
+  left: 300px;
+}

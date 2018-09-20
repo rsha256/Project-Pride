@@ -135,6 +135,12 @@ and (max-device-width: 480px) {
   height: 30vh;
 }
 
+.mobile-transp-background {
+  mix-blend-mode: multiply;
+  width: 50vw;
+  height: 30vh;
+}
+
 #index-banner {
   background: green fixed;
 }

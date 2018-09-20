@@ -135,7 +135,11 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      <span class="black-text">Made by <a class="" href="https://github.com/rshah2020">Rahul Shah</a></span>
+      <details>
+        <summary class="purple-text">Project Pride &copy; 2017-2018</summary>
+        <p class="indigo-text"> - by <a href="https://github.com/rshah2020">Rahul Shah</a>. All Rights Reserved.
+        </p>
+      </details>
     </div>
   </div>
 </footer>

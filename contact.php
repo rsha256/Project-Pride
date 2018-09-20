@@ -22,6 +22,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#ffd700">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#ffd700">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Project&nbsp;Pride</title>

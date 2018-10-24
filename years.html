@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#ffd700">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#ffd700">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Project Pride</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link href="css/years.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/years.css" type="text/css" rel="stylesheet" media="screen" />
 
   <script src="js/scroll_indicator.js"></script>
 </head>
-<body>
-<div>
-  <nav class="pos-fixed">
-    <div class="navbar-fixed nav-wrapper container"><a id="logo-container" href="index.html"
-                                                       class="brand-logo pulse animated">
+<body class="yellow darken-1">
+<nav id="content" class="yellow darken-2 pos-fixed">
+  <div class="navbar-fixed nav-wrapper container">
+    <a id="logo-container" href="index.html" class="brand-logo">
       <small>Project&nbsp;Pride</small>
     </a>
-      <ul class="right hide-on-med-and-down bounce animated">
-        <li><a href="members.html">Members</a></li>
-        <li><a href="#2015">2015</a></li>
-        <li><a href="#2016">2016</a></li>
-        <li><a href="#2017">2017</a></li>
-        <li><a class="green z-depth-1-half" href="2018">2018</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul>
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="members.html">Members</a></li>
-        <li><a href="2015">2015</a></li>
-        <li><a href="2016">2016</a></li>
-        <li><a href="2017">2017</a></li>
-        <li><a class="green z-depth-1-half" href="2018">2018</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-  <div class="progress-container">
-    <br>
-    <div class="on-top progress-bar" id="myBar"></div>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="members.html">Members</a></li>
+      <li><a href="#2015">2015</a></li>
+      <li><a href="#2016">2016</a></li>
+      <li><a href="#2017">2017</a></li>
+      <li><a href="#2018">2018</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="members.html">Members</a></li>
+      <li><a href="#2015">2015</a></li>
+      <li><a href="#2016">2016</a></li>
+      <li><a href="#2017">2017</a></li>
+      <li><a href="#2018">2018</a></li>
+      <li>
+        <a href="https://calendar.google.com/calendar/embed?src=fgu42cddsutnkvodadjmj94uik%40group.calendar.google.com&ctz=America%2FNew_York"
+           target="_blank">Calendar</a>
+      </li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
+</nav>
+<div class="progress-container">
+  <br>
+  <div class="on-top progress-bar" id="myBar"></div>
 </div>
 
 <div class="spacer"></div>
-<div class="container space-down">
+<div id="2015" class="scrollspy container space-down">
   <div>
-    <br>
-    <h2 class="header">
-      Camp Bernie 2015
-    </h2>
+    <br><br>
+    <h1 class="center flow-text header">
+      <b>Camp Bernie 2015</b>
+    </h1>
   </div>
-  <div class="video-container">
-    <iframe width="850" height="480" src="videos/Project-Pride-2018.m4v" frameborder="0" allowfullscreen></iframe>
+  <div class="center">
+    <!--<div class="video-container">-->
+    <!--<iframe width="850" height="480" src="" frameborder="0" allowfullscreen></iframe>-->
+    <img class="center" style="width: 75vw" src="images/2018.png">
   </div>
 </div>
-<div class="spacer"></div>
-<div class="container space-down">
+<div id="2016" class="scrollspy container space-down">
   <div>
-    <br>
-    <h2 class="header">
-      Camp Bernie 2016
-    </h2>
+    <br><br>
+    <h1 class="center flow-text header">
+      <b>Camp Bernie 2016</b>
+    </h1>
   </div>
-  <div class="video-container">
-    <iframe width="850" height="480" src="videos/Project-Pri  de-2018.m4v" frameborder="0" allowfullscreen></iframe>
+  <div class="center">
+    <!--<div class="video-container">-->
+    <!--<iframe width="850" height="480" src="" frameborder="0" allowfullscreen></iframe>-->
+    <img class="center" style="width: 75vw" src="images/2018.png">
   </div>
 </div>
-<div class="spacer"></div>
-<div class="container space-down">
+<div id="2017" class="scrollspy container space-down">
   <div>
-    <br>
-    <h2 class="header">
-      Camp Bernie 2017
-    </h2>
+    <br><br>
+    <h1 class="center flow-text header">
+      <b>Camp Bernie 2017</b>
+    </h1>
   </div>
-  <div class="video-container">
-    <iframe width="850" height="480" src="videos/Project-Pride-2018.m4v" frameborder="0" allowfullscreen></iframe>
+  <div class="center">
+    <!--<div class="video-container">-->
+    <!--<iframe width="850" height="480" src="" frameborder="0" allowfullscreen></iframe>-->
+    <img class="center" style="width: 75vw" src="images/2018.png">
   </div>
 </div>
-<div class="spacer"></div>
-<div class="container space-down">
+<div id="2018" class="scrollspy container space-down">
   <div>
-    <br>
-    <h2 class="header">
-      Camp Bernie 2018
-    </h2>
+    <br><br>
+    <h1 class="center flow-text header">
+      <b>Camp Bernie 2018</b>
+    </h1>
   </div>
   <div class="video-container">
-    <iframe width="850" height="480" src="videos/Project-Pride-2018.m4v" frameborder="0" allowfullscreen></iframe>
+    <iframe width="850" height="480" src="https://player.vimeo.com/video/267213194" frameborder="0"
+            allowfullscreen></iframe>
   </div>
 </div>
 
@@ -97,15 +111,15 @@
   <div class="container">
     <div class="row">
       <div class="center col l6 s12">
-        <h5 class="white-text">Company Bio</h5>
-        <p class="grey-text text-lighten-4">In 2018, Project Pride will go to Camp Bernie again! Check back later
-          for more info.</p>
+        <h5 class="black-text">Company Bio</h5>
+        <p class="black-text text-lighten-4">In 2019, Project Pride will go to Camp Bernie again! Check back later
+                                             for more info.</p>
       </div>
       <div class="center col l3 s12">
-        <h5 class="white-text">Officers:</h5>
+        <h5 class="black-text">Officers:</h5>
         <ul>
-          <li><a class="white-text" href="#">Jessica Shah</a></li>
-          <li><a class="white-text" href="#">Sadat Butt</a></li>
+          <li><a class="black-text" href="#">Jessica Shah</a></li>
+          <li><a class="black-text" href="#">Sadat Butt</a></li>
         </ul>
       </div>
     </div>
@@ -114,7 +128,7 @@
     <div class="container">
       <details>
         <summary class="purple-text">Project Pride &copy; 2017-2018</summary>
-        <p class="indigo-text"> - by <a href="https://github.com/coder3462">Rahul Shah</a>. All Rights Reserved.</p>
+        <p class="indigo-text"> - by <a href="https://github.com/rshah2020">Rahul Shah</a>. All Rights Reserved.</p>
       </details>
     </div>
   </div>
@@ -123,6 +137,7 @@
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
+<script src="js/scrollspy.js"></script>
 <script src="js/init.js"></script>
 
 </body>

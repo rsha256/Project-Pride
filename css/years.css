@@ -1,3 +1,9 @@
+a.active {
+  background-color: #4CAF50;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
 .pos-fixed {
     position: fixed;
     top: 0;
@@ -16,6 +22,23 @@
 .progress-bar {
     height: 15px;
     background: #4caf50;
-    width: 0%;
+    width: 0;
 }
 
+/* Years div IDs */
+#2015 {
+  height: 600px;
+}
+#2016 {
+  height: 600px;
+}
+#2017 {
+  height: 600px;
+}
+#2018 {
+  height: 600px;
+}
+
+.sidenav-overlay {
+  left: 300px;
+}

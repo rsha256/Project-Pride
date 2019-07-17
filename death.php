@@ -27,7 +27,7 @@ END;
     if($_GET['error'] == 'kill') {
         $heading = 'Project Pride';
         $message = <<<END
-        This means that something has gone wrong. <br>Email <a href-"mailto:rahuldshah3@gmail.com">me</a> to fix it. <br>
+        This means that something has gone wrong. <br>Email <a href="mailto:rahuldshah3@gmail.com">me</a> to fix it. <br>
 END;
     }
 

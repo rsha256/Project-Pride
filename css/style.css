@@ -16,6 +16,11 @@ img.responsive-img {
   font-family: "Amaranth", serif;
 }
 
+.border {
+  border-style: solid;
+  border-color: black;
+}
+
 .c-amaranth {
   font-family: "Amaranth", cursive;
 }

@@ -13,11 +13,11 @@ img.responsive-img {
 }
 
 .amaranth {
-  font-family: 'Amaranth', serif;
+  font-family: "Amaranth", serif;
 }
 
 .c-amaranth {
-  font-family: 'Amaranth', cursive;
+  font-family: "Amaranth", cursive;
 }
 
 .genphoto {
@@ -50,6 +50,10 @@ img.responsive-img {
 
 .spacer {
   margin: 5vh;
+}
+
+.space-down {
+  margin-bottom: 10vh;
 }
 
 .on-top {
@@ -88,9 +92,7 @@ img.responsive-img {
 }
 
 /* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .mobile-hide {
     display: none;
   }
@@ -102,16 +104,14 @@ and (max-device-width: 480px) {
 }
 
 /* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .mobile-show {
     display: inline;
   }
 }
 
 .custom-navbar {
-  color: #FFDF00;
+  color: #ffdf00;
 }
 
 .resp-container {

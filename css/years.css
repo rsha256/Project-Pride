@@ -43,3 +43,7 @@ a.active {
 .sidenav-overlay {
   left: 300px;
 }
+
+.video-container {
+  z-index: -1;
+}

@@ -152,3 +152,15 @@ img.responsive-img {
 #content {
   z-index: 999;
 }
+
+/* Hide on Mobile*/
+.mobile-hide-b {
+  display: block;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mobile-hide-b {
+    display: none;
+  }
+}

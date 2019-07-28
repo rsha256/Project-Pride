@@ -33,6 +33,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Project&nbsp;Pride</title>
 
+  <link rel="shortcut icon" href="images/logo.png" />
+
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen"/>
@@ -136,8 +138,8 @@
   <div class="footer-copyright">
     <div class="container">
       <details>
-        <summary class="purple-text">Project Pride &copy; 2017-2018</summary>
-        <p class="indigo-text"> - by <a href="https://github.com/rshah2020">Rahul Shah</a>. All Rights Reserved.
+        <summary class="purple-text">Project Pride &copy; 2015-2019</summary>
+        <p class="indigo-text"> - by <a href="https://github.com/rsha256">Rahul Shah</a>. All Rights Reserved.
         </p>
       </details>
     </div>

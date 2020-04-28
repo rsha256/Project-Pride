@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81d6007f-92f5-4a55-8d3d-d63f215fb88c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Project-Pride.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-Pride.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/elements-rockaway-beach-2AJL9P-2018-04-10.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/years.html" beforeDir="false" afterPath="$PROJECT_DIR$/years.html" afterDir="false" />
-    </list>
+    <list default="true" id="81d6007f-92f5-4a55-8d3d-d63f215fb88c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/years.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+            <state relative-caret-position="387">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,11 +71,6 @@
               <item name="Project-Pride" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Pride" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project-Pride" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Pride" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -121,16 +111,15 @@
       <updated>1537155027347</updated>
       <workItem from="1537155031383" duration="7379000" />
       <workItem from="1537417563787" duration="3523000" />
-      <workItem from="1588055387972" duration="447000" />
+      <workItem from="1588055387972" duration="702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11349000" />
+    <option name="totallyTimeSpent" value="11604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/years.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+        <state relative-caret-position="387">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
